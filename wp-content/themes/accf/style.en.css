@@ -1,0 +1,21 @@
+/*
+英語用スタイルシート
+*/
+.no_list_style li dl dt,
+.no_list_style dl dt, .no_list_style ul li dl dt {
+	width: 140px;
+	line-height: 2.6;
+	float: left;
+	margin-left: 1em;
+	padding-right: .5em;
+}
+.no_list_style dl dd, .no_list_style ul li dl dd {
+	width: 450px;
+	line-height: 2.6;
+	float: left;
+	margin: 0;
+}
+.themefunds ul {
+	list-style-type: disc;
+	padding-left: 1em;
+}

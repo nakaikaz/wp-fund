@@ -1,0 +1,615 @@
+# Translation of ACCF in Japanese
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-05-30 15:48+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.5\n"
+"Project-Id-Version: ACCF\n"
+"POT-Creation-Date: \n"
+"Last-Translator: nakai kazuaki <nakai@a-nponet.jp>\n"
+"Language-Team: \n"
+
+msgid "Coming soon ..."
+msgstr "準備中・・・"
+
+msgid "Global navigation"
+msgstr "グローバルナビゲーション（ページ上部）"
+
+#: front-page.php:70 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "おっと、失礼しました。"
+
+#: 404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "日別アーカイブ: %s"
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "月別アーカイブ: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年n月"
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "年別アーカイブ: %s"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: archive.php:35
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: author.php:32
+msgid "Author Archives: %s"
+msgstr "作成者別アーカイブ: %s"
+
+#: author.php:53 content.php:53
+msgid "About %s"
+msgstr "%s について"
+
+#: category.php:21
+msgid "Category Archives: %s"
+msgstr "カテゴリー別アーカイブ: %s"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のフィードバック"
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr "&larr; 過去のコメント"
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: content-aside.php:13 content-aside.php:20 content-image.php:17
+#: content-link.php:18 content-quote.php:17 content-status.php:15
+#: content.php:23
+msgid "Permalink to %s"
+msgstr "%s へのパーマリンク"
+
+#: content-aside.php:15 content-image.php:13 content-link.php:14
+#: content-quote.php:13 content-status.php:21 content.php:39
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:27 content.php:28
+msgid "Leave a reply"
+msgstr "コメントをどうぞ"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:27 content.php:28
+msgid "1 Reply"
+msgstr "1件のフィードバック "
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:27 content.php:28
+msgid "% Replies"
+msgstr "%件の返信"
+
+#: content-aside.php:26 content-image.php:26 content-link.php:24
+#: content-page.php:21 content-quote.php:23 content-status.php:30
+#: content.php:46 functions.php:309 image.php:37
+msgid "Edit"
+msgstr "編集"
+
+#: content-link.php:12
+msgid "Link"
+msgstr "リンク"
+
+#: content-none.php:13 index.php:49 search.php:34
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: content-none.php:17 index.php:53
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+"一致する結果がありませんでした。検索してみると、関連投稿が見つかるかもしれま"
+"せん。"
+
+#: content-page.php:18 content.php:40 image.php:92
+msgid "Pages:"
+msgstr "ページ:"
+
+#: content.php:14
+msgid "Featured post"
+msgstr "おすすめ投稿"
+
+#: content.php:57
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s の投稿をすべて表示 <span class=\"meta-nav\">&rarr;</span>"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://ja.wordpress.org/"
+
+#: footer.php:17
+msgid "Semantic Personal Publishing Platform"
+msgstr "セマンティックなパブリッシングツール"
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: functions.php:64
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: functions.php:120
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:125
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:181
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: functions.php:206
+msgid "Main Sidebar"
+msgstr "メインサイドバー"
+
+#: functions.php:208
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+"独自ウィジェットを持つオプションフロントページテンプレートの投稿と固定ページ"
+"に表示されます。"
+
+#: functions.php:216
+msgid "First Front Page Widget Area"
+msgstr "フロントページウィジェットエリア 1"
+
+#: functions.php:218 functions.php:228
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+"オプションフロントページテンプレートを固定フロントとして使う際に表示されま"
+"す。"
+
+#: functions.php:226
+msgid "Second Front Page Widget Area"
+msgstr "フロントページウィジェットエリア 2"
+
+#: functions.php:250 single.php:20
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: functions.php:251
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 過去の投稿"
+
+#: functions.php:252
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい投稿 <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:277
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: functions.php:277
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: functions.php:292
+msgid "Post author"
+msgstr "投稿作成者"
+
+#: functions.php:298
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: functions.php:304
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: functions.php:313
+msgid "Reply"
+msgstr "返信"
+
+#: functions.php:332 functions.php:335
+msgid ", "
+msgstr ", "
+
+#: functions.php:346
+msgid "View all posts by %s"
+msgstr "%s の投稿をすべて表示"
+
+#: functions.php:352
+msgid "Posted on %3$s<br />Filed under %1$s<br />Tagged under %2$s"
+msgstr "投稿日: %3$s<br />カテゴリー: %1$s<br />タグ: %2$s "
+
+#: functions.php:354
+msgid "Posted on %3$s<br />Filed under %1$s"
+msgstr "投稿日: %3$s<br />カテゴリー: %1$s"
+
+#: functions.php:356
+msgid "Posted on %3$s"
+msgstr "投稿日: %3$s"
+
+#: header.php:43
+msgid "Menu"
+msgstr "メニュー"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "コンテンツへ移動"
+
+#: image.php:26
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">公開日時:</span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span><a href=\"%3$s\" title=\"フルサイズ画像へのリンク\">%4$s &times; %5$s</"
+"a> (<a href=\"%6$s\" title=\"%7$s へ戻る\" rel=\"gallery\">%8$s</a>)"
+
+#: image.php:41
+msgid "&larr; Previous"
+msgstr "&larr; 前へ"
+
+#: image.php:42
+msgid "Next &rarr;"
+msgstr "次へ &rarr;"
+
+#: index.php:38
+msgid "No posts to display"
+msgstr "表示する投稿がありません"
+
+#: index.php:42
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+"最初の投稿をする準備ができましたか ? <a href=\"%s\">ここからスタート</a>して"
+"ください。"
+
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"ご指定の検索条件に合う投稿がありませんでした。他のキーワードでもう一度検索し"
+"てみてください。"
+
+#: single.php:21
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:22
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "タグ別アーカイブ: %s"
+
+msgid "Read more"
+msgstr "詳細を読む"
+
+msgid "Aoimori Community Fund"
+msgstr "青い森コミュニティ基金"
+
+msgid "Designs of civil society initiating philanthropic mind"
+msgstr "あなたの想いを届ける仕組み"
+
+msgid "Type a search term"
+msgstr "検索ワードを入力"
+
+msgid "About ACF"
+msgstr "財団について"
+
+msgid "Give now"
+msgstr "寄付をお考えの方へ"
+
+msgid "What we do"
+msgstr "支援活動について"
+
+msgid "Consultation for CSR"
+msgstr "ＣＳＲについてのご相談"
+
+msgid "Latest News"
+msgstr "最新ニュース"
+
+# フッタ
+msgid "Home"
+msgstr "ホーム"
+
+msgid "About"
+msgstr "組　織"
+
+msgid "Organization"
+msgstr "法人情報"
+
+msgid "Background"
+msgstr "設立の背景"
+
+msgid "Executive"
+msgstr "理事、監事、評議員"
+
+msgid "Publications"
+msgstr "開示情報"
+
+msgid "Access"
+msgstr "アクセス"
+
+msgid "Programs"
+msgstr "事　業"
+
+msgid "Give & Fund"
+msgstr "寄付と基金"
+
+msgid "Grants"
+msgstr "助成支援"
+
+msgid "NPO portal site"
+msgstr "ＮＰＯポータルサイト"
+
+msgid "Pro bono"
+msgstr "プロボノ"
+
+msgid "Resource"
+msgstr "資源提供"
+
+msgid "Resource endowment"
+msgstr "資源提供"
+
+msgid "Files"
+msgstr "資　料"
+
+msgid "Seminars"
+msgstr "セミナー"
+
+msgid "Materials"
+msgstr "テキスト等"
+
+msgid "Reports"
+msgstr "調査報告書等"
+
+msgid "Accounting standards"
+msgstr "ＮＰＯ法人会計基準"
+
+msgid "Voices"
+msgstr "応援メッセージ"
+
+msgid "Initial donors"
+msgstr "設立時寄付者一覧"
+
+msgid "Donors"
+msgstr "寄付者一覧"
+
+msgid "Latest news"
+msgstr "お知らせ"
+
+msgid "Contact"
+msgstr "お問い合わせ"
+
+msgid "FAQs"
+msgstr "よくあるご質問"
+
+msgid "Sitemap"
+msgstr "サイトマップ"
+
+msgid "Aoimori Creative Community Fund"
+msgstr "一般財団法人青い森地域創造基金"
+
+msgid "Wada building 2F, 1-13-7, Shin-machi, Aomori, 030-0801"
+msgstr "〒０３０−０８０１　青森市新町１丁目１３−７　和田ビル２F"
+
+msgid "TEL 017-752-9095&emsp;FAX 017-852-9097"
+msgstr "ＴＥＬ：０１７−７５２−９０９５　ＦＡＸ：０１７−７５２−９０９７"
+
+# アクセス
+msgid "5-minute walk from Aomori station"
+msgstr "青森駅より徒歩５分"
+
+msgid "3-minute walk from Nakasan-mae station of municiapl bus"
+msgstr "市営バス「中三前」より徒歩３分"
+
+msgid "2-minute walk from Shin-machi Ittyome station of municipal bus"
+msgstr "市営バス「新町一丁目」より徒歩２分"
+
+msgid "from 9am to 5pm Monday-Friday (except public holidays)"
+msgstr "９：００　〜　１７：００（土日、祝日休業）"
+
+# 事　業
+msgid ""
+"We manage funds composed of donations from individuals and businesses and "
+"disburse grants to nonprofit organizations."
+msgstr ""
+"市民の方々、企業の方々からの寄付による基金を運営し、ＮＰＯ（民間非営利団体）"
+"への助成支援を行います。"
+
+msgid "Designated Fund"
+msgstr "テーマ別基金"
+
+msgid "Individual Fund"
+msgstr "個 別 基 金"
+
+msgid "Activity to give children better educational environments"
+msgstr "子どもによりよい教育環境を与えるための活動"
+
+msgid "Activity to solve local issues"
+msgstr "地域課題解決のための活動"
+
+msgid "Activity to raise level of well-being of Aomori prefecture"
+msgstr "青森県の幸せ度を上げるための活動"
+
+msgid "Activity to encourage people to live in Aomori prefecture"
+msgstr "Ｉターン、Ｕターンを促進する活動"
+
+msgid ""
+"In pro bono program, we look for volunteers, who are familliar with IT, "
+"accountancy and public relations, among experts and bussiness sectors and "
+"provide information of them on NPO Portal Site. This is a system that "
+"matches nonprofits with professional skills of for-profit sector."
+msgstr ""
+"プロボノ支援システムは、ＩＴ（ワード、エクセルやホームページ）、会計、広報な"
+"どの詳しい企業や専門家の方々で、ボランティア等の支援をしていただける方の発掘"
+"を行い、ポータルサイト上でその情報を発信していきます。企業や専門家を必要とし"
+"ているNPOを募集しマッチングする仕組みです。"
+
+msgid ""
+"In resource endowment program, we look for unused tables, chairs, lockers "
+"and white boards in business sectors and provide information of them on NPO "
+"Portal Site. This is a system that matches nonprofits that want office "
+"products with business sectors that can provide them."
+msgstr ""
+"資源提供・仲介システムは、企業の方々において不要になったがまだまだ使える事務"
+"用机、 椅子、ロッカーやホワイトボード等の情報を収集し、ポータルサイト上で情報"
+"を取得し発信していきます。 資源を提供できる企業と、資源を必要としているNPOを"
+"募集しマッチングする仕組みです。"
+
+# 寄付と基金
+msgid ""
+"The purpose of fund is to ensure that donors who want to support nonprofit "
+"organizations can be matched to proper ones."
+msgstr ""
+"地域活動を行うＮＰＯや非営利組織（団体）と、ＮＰＯを支えたい寄付者をつないで"
+"いくのが基金の役割です。"
+
+msgid ""
+"We named the fund \"Aoimori Community Fund\" which aims to renew civil "
+"society in Aomori prefecture by people's philanthropic mind. \"Aoimori "
+"Community Fund\" is the general term of grants and endowments which Aoimori "
+"Creative Community Fund manages."
+msgstr ""
+"人々の善意ある思いで、青森県の新しい市民社会の実現を目指すための基金を、私た"
+"ちは「青い森コミュニティ基金」と名付けました。「青い森コミュニティ基\t金」"
+"は、一般財団法人青い森地域創造基金が運営する助成・支援基金の総称です。"
+
+msgid ""
+"Aoimori Community Fund provides nonprofit organizations with supports and "
+"grants on 4 themes the Fund advocates."
+msgstr ""
+"「青い森コミュニティ基金」では、４つのテーマ（活動分野）に対して地域\t貢献活"
+"動を行うＮＰＯや非営利組織に助成・支援を行ってきます。"
+
+msgid "4 themes"
+msgstr "4テーマ"
+
+# ＮＰＯポータルサイト
+msgid ""
+"We manage NPO Potal Site so that nonprofit organization can interact with "
+"businesses and government as well as publicity by nonprofits. "
+msgstr ""
+"ＮＰＯ等民間非営利団体と、企業、行政などの出会いや情報交換の場となることを目"
+"的とするとともに、ＮＰＯや民間非営利団体が情報を発信する場としてポータルサイ"
+"トを運営しております。"
+
+msgid "Terms of use"
+msgstr "利用規約"
+
+msgid "Application"
+msgstr "申込書"
+
+msgid "Manual for supporters"
+msgstr "支援者向けマニュアル"
+
+msgid "Manual for nonprofits"
+msgstr "ＮＰＯ向けマニュアル"
+
+# 寄付をお考えの方へ
+msgid ""
+"The civic foundation depends entirely on contributions from residents and "
+"businesses to fund the civil activities."
+msgstr ""
+"一般財団法人青い森地域創造基金では、クレジットカードによる寄付（一般寄付）の"
+"お申込みを受け付けております。"
+
+msgid ""
+"By making an one-off donation, with which you let us decide what to fund, "
+"you can enrich our community."
+msgstr ""
+"一般寄付金とは、予め支援する活動分野を決めない（指定しない）で、支援するテー"
+"マの選択は当財団に一任する基金（一般基金）への寄付、および当財団の公益目的活"
+"動に対する寄付です。"
+
+msgid "Available cards are listed below:"
+msgstr "以下のクレジットカードがご利用いただけます。"
+
+msgid "Donate Now!"
+msgstr "クレジット決済画面へ"
+
+msgid "Amount: "
+msgstr "寄付額："
+
+msgid "3,000 yen"
+msgstr "3,000円を寄付する"
+
+msgid "5,000 yen"
+msgstr "5,000円を寄付する"
+
+msgid "10,0000 yen"
+msgstr "10,000円を寄付する"
+
+msgid "30,0000 yen"
+msgstr "30,000円を寄付する"
+
+msgid "50,000 yen"
+msgstr "50,000円を寄付する"
+
+msgid "100,000 yen"
+msgstr "100,000円を寄付する"
+
+msgid "Aoimori Community Fund uses the online-payment system of J-Payment inc."
+msgstr ""
+"※寄付金のお申し込みは、株式会社J-Paymentのオンライン決済システムを利用してお"
+"ります。"
+
+# お問い合わせ
+msgid "You can contact us by sending us inquiry using the form below."
+msgstr ""
+"当財団へのお問い合わせは、お電話の他、こちらのフォームもご利用いただけます。"
+
+msgid ""
+"Your information will not be shared with any other outside organiztion, "
+"except as part of answering your inquiry or providing news of the foundation."
+msgstr ""
+"いただいた個人情報は青い森地域創造基金において適切に管理するとともに、お問い"
+"合わせに対する返答と当財団からのお知らせや案内以外には一切使用いたしません。"
+
+msgid "Member Store"
+msgstr "加盟店一覧"

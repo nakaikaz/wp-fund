@@ -1,0 +1,127 @@
+/* --------------------------------------------------------------
+
+   forms.css
+   * Sets up some default styling for forms
+   * Gives you classes to enhance your forms
+
+   Usage:
+   * For text fields, use class .title or .text
+   * For inline forms, use .inline (even when using columns)
+
+-------------------------------------------------------------- */
+
+label {
+	font-weight: bold;
+}
+fieldset {
+	padding:1.4em;
+	margin: 0 0 1.5em 0;
+	border: 1px solid #ccc;
+}
+legend {
+	font-weight: bold;
+	font-size:1.2em;
+}
+/* Form fields
+-------------------------------------------------------------- */
+
+input[type=text], input[type=password], input[type=email], input[type=tel], input.text, input.title, textarea, select {
+	background-color:#fff;
+	border:1px solid #aaa;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {
+	border-color:#68ace5;
+}
+input[type=text], input[type=password], input[type=email], input[type=tel], input.text, input.title, textarea, select {
+	margin:0.5em 0;
+	padding:5px 5px !important;
+}
+input.text, input.title {
+	width: 200px;
+}
+input.title {
+	font-size:1.5em;
+}
+
+input.wpml {
+	font-size: 13pt !important;
+}
+textarea {
+	padding:5px;
+	background-color: #f3f3f3;
+}
+input[type=checkbox], input[type=radio], input.checkbox, input.radio {
+	position:relative;
+	top:.25em;
+}
+form.inline {
+	line-height:3;
+}
+form.inline p {
+	margin-bottom:0;
+}
+#submit, #searchsubmit, a.button, input.button, .submit {
+	text-align: center;
+	display: block;
+	min-width: 60px;
+	margin: 0;
+	padding: 5px 5px 5px 5px!important;
+	border: 0;
+	background-color: #68ace5;
+	color: #fff !important;
+	font-weight: 700 !important;
+	cursor: pointer;
+	text-decoration: none !important;
+	font-size: 13px!important;
+}
+
+a.button {
+	padding: 8px 5px 7px 5px;
+}
+
+#submit:hover, #searchsubmit:hover, a.button:hover {
+	/*background-color: #002a5c;*/
+	background-color: #006837;
+}
+#s {
+	margin: 10px 0px 0px 0px;
+	color: #aaa;
+}
+
+#s:focus {
+	color: #002a5c
+}
+/* Success, notice and error boxes
+-------------------------------------------------------------- */
+
+.error, .notice, .success {
+	padding: .8em;
+	margin-bottom: 1em;
+	border: 2px solid #ddd;
+}
+.error {
+	background: #FBE3E4;
+	color: #8a1f11;
+	border-color: #FBC2C4;
+	display: block;
+}
+.notice {
+	background: #FFF6BF;
+	color: #514721;
+	border-color: #FFD324;
+	display: block;
+}
+.success {
+	background: #E6EFC2;
+	color: #264409;
+	border-color: #C6D880;
+}
+.error a {
+	color: #8a1f11;
+}
+.notice a {
+	color: #514721;
+}
+.success a {
+	color: #264409;
+}

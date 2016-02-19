@@ -1,0 +1,33 @@
+.wp-list-table th:first-child + th {
+	width: 8%;
+}
+.wp-list-table th:first-child + th + th {
+	width: 15%;
+}
+.wp-list-table th:first-child + th + th + th {
+	width: 12%;
+}
+.wp-list-table th:first-child + th + th + th + th {
+	width: 10%;
+}
+.wp-list-table tr td.initial {
+	padding-left: 1em;
+}
+#donor-form-dialog {
+	display: none;
+}
+#donor-form-dialog label, #donor-form-dialog input {
+	margin-bottom: 12px;
+	padding: .4em;
+}
+#donor-form-dialog fieldset {
+	padding: 0;
+	border: 0;
+	margin-top: 25px;
+}
+.ui-dialog-titlebar {
+	margin-top: .5em;
+}
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+.ui-widget-overlay {display:none;}

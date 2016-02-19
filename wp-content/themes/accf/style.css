@@ -1,0 +1,492 @@
+/*
+Theme Name: ACCF
+Theme URI: http://a-ccf.org/
+Description: 一般財団法人青い森地域創造基金ホームページテーマ
+Author: 中居和昭
+Author URI: https://www.facebook.com/nakai.kazuaki
+Version: 1.0
+Tags: white, two-columns, fixed-width, sticky-post, translation-ready, microformats, editor-style, custom-menu
+
+License:
+License URI:
+
+General comments (optional).
+*/
+
+@import url('css/reset.css');
+@import url('css/typography.css');
+@import url('css/960.css');
+@import url('css/forms.css');
+
+/* basic style */
+body, p, h1, h2, h3, h4, h5, blockquote, span, li, a {
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+img {
+    margin: 0 0 10px 0;
+}
+.breakout {
+    margin: 0 auto 10px;
+    padding: 10px 0;
+    background-color: #39b54a;
+    font-size: 90%;
+    width: 1000px;
+    color: #fff;
+}
+
+/* link */
+a:link, a:visited {
+    color: #39b54a;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+/* body */
+boty {
+    background-color: #b3ebba;
+}
+
+/* button etc */
+#submit, #searchsubmit, a.button, input.button, .submit {
+    text-align: center;
+    display: block;
+    min-width: 60px;
+    margin: 0;
+    padding: 5px;
+    border: 0;
+    background-color: #39b54a;
+    /*background-color: #006837;*/
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.green_1 {
+    background-color: #006837;
+}
+a.gray {
+    background-color: #aaa;
+}
+
+
+/* header */
+#header {
+    margin-top: 30px;
+}
+#header h1 {
+    font-size: 200%;
+    margin: 0.5em 0;
+}
+#header h1 a {
+    color: #000;
+}
+#header a {
+    border-bottom: 0;
+}
+#header a:hover {
+    text-decoration: none;
+}
+#searchbox, #loginbox {
+    margin-top: 10px;
+    height: 40px;
+    color: #aaa;
+    font-size: 90%;
+}
+#searchbox #s, #searchform #s {
+    float: left;
+    padding: 7px 5px !important;
+}
+#searchbox #searchsubmit, #searchform #searchsubmit {
+    margin-top: 10px;
+    float: right;
+}
+#fontsize {
+    float: left;
+    width: 300px;
+    padding: 0 0 3px 0;
+    font-size: 16px;
+}
+#fontsize a {
+    font-weight: 700;
+    color: #aaa;
+    padding: 0 2px;
+    border-bottom: 0;
+}
+#navbox {
+    float: right;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#menu-main a {
+    display: block;
+    margin: 0 0 0 10px;
+    padding: 8px 20px;
+    background-color: #006837;
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 0;
+}
+#menu-main li a:hover, #menu-main li.current-menu-item a {
+    text-decoration: none;
+    background-color: #39b54a;
+}
+#menu-main li.current-menu-item ul li a {
+    background-color: #006837;
+}
+#menu-main li.current-menu-item ul li a:hover {
+    background-color: #39b54a;
+}
+#menu-main li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 5000;
+}
+#menu-main li ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 90%;
+}
+#menu-main li ul li {
+    display: block;
+    float: none;
+    width: 172px;
+}
+#menu-main li:hover ul {
+    display: block;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index: 500;
+}
+
+.crumb {
+    color: #fff;
+}
+.crumb a {
+    color: #fff;
+}
+.breadcrumb {
+    color: #fff;
+    height: 12px;
+    line-height: 12px;
+}
+/* sidebar */
+#sidebar-wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sidebar .box {
+    padding: 5px 0 1px 0;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 15px;
+}
+#sidebar .bigbutton a {
+    display: block;
+    color: #39b54a;
+    padding: 10px;
+    font-size: 110%;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    /*text-shadow: 0px 1px 0px #000;*/
+    background-color: #fff;
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    border: 1px solid #39b54a;;
+}
+#sidebar .givingmarket a {
+    color: #c41023;
+    border: 1px solid #c41023;
+}
+#sidebar .bigbutton a:hover, #sidebar .bigbutton a:active {
+    text-decoration: underline;
+}
+#sidebar .social a {
+    border-bottom: 0;
+}
+#sidebar .social img {
+    display: block;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+#blog-posts .recent-posts {
+    min-height: 100px;
+}
+
+/* content */
+#content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#content .box {
+    display: block;
+    margin: 1em 0;
+    padding: .5em 0;
+}
+article,
+.post-entries {
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+}
+.post {
+    clear: both;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 10px;
+}
+#topic article.post {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.entry-content {
+    min-height: 300px;
+}
+.entry-meta {
+    margin-top: 10px;
+}
+#featured {
+    position: relative;
+    height: 370px;
+    overflow: hidden;
+    margin: 5px 0 30px 0;
+    background-color: #fff;
+}
+#featured .slidesjs-slide {
+    height: 350px;
+}
+#featured .comment {
+    font-size: 170%;
+    color: #fff;
+    text-shadow: 5px 5px 1px #f00;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #000;
+    width: 610px;
+    margin: 0;
+    padding: 5px;
+}
+#featured .opacity {
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.vertical_dot {
+    background: url('images/dash-vertical.png') repeat-y 50% 0;
+}
+.vertical_dot .grid_4 {
+    position: relative;
+    padding-bottom: 2em;
+}
+.themefunds {
+    margin-left: 0;
+}
+.indivisualfunds {
+    margin-right: 0;
+}
+.themefunds h4, .indivisualfunds h4 {
+    padding: 6px 20px;
+    background-color: #39B54A;
+    color: #fff;
+    text-align: center;
+}
+.themefunds ul {
+    list-style-type: none;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.themefunds ul li {
+    position: relative;
+    z-index: 5000;
+}
+.programs h3 {
+    width: 250px;
+    padding: 6px 20px;
+    background-color: #0071BC;
+    color: #fff;
+    text-align: center;
+}
+
+.entry ul li {
+    clear: both;
+    /*line-height: 0;*/
+}
+.entry ul.no_list_style {
+    list-style: none;
+    margin: 0;
+    margin-bottom:1.5em;
+    padding: 0;
+}
+.entry ul.bottom_line_ccc li {
+    border-bottom: 1px dashed #ccc;
+}
+.entry ul.padding_10_0 li {
+    padding: 10px 0;
+}
+.no_list_style dl {
+    display: inline-block;
+    margin: 0;
+    /*line-height: 2.4;*/
+    *display: inline;   /* for IE */
+    *zoom: 1;           /* for IE */
+}
+.no_list_style dl dt, .no_list_style ul li dl dt {
+    width: 130px;
+    line-height: 2.6;
+    float: left;
+    margin-left: 1em;
+}
+.no_list_style dl dd, .no_list_style ul li dl dd {
+    width: 450px;
+    line-height: 2.6;
+    float: left;
+    margin: 0;
+}
+
+#giving-market .box h3 {
+    background-color: #39B54A;
+    color: #FFFFFF;
+    padding: 6px 20px;
+    text-align: center;
+}
+
+/* sitemap */
+#sitemap {
+    margin-top: 40px;
+}
+#sitemap .category {
+    height: 60px;
+    border-bottom: 1px dotted #ccc;
+    margin: 0 0 40px 0;
+}
+#sitemap .category h4 {
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0;
+}
+#sitemap .category h4 a {
+    color: #000;
+    padding: 0 0 0 22px;
+    background: url('images/arrow_18.gif') no-repeat left top;
+    border: 0;
+    line-height: 18px;
+    display: inline-block;
+}
+#sitemap .category ul {
+    list-style: none;
+}
+#sitemap .category ul li {
+    clear: none;
+    float: left;
+    width: 200px;
+}
+#sitemap .category ul li a {
+    color: #000;
+    padding: 0 0 0 22px;
+    background: url('images/arrow_18.gif') no-repeat left top;
+    border: 0;
+    line-height: 18px;
+    display: inline-block;
+}
+
+/* footer */
+.footer_nav ul {
+    margin: 10px 0;
+    padding: 0 0 0 4em;
+    list-style-type: none;
+}
+.footer_nav li a {
+    color: #fff;
+}
+.footer_nav li a:visited {
+    color: #fff;
+}
+.footer_nav li.down {
+    padding-left: 16px;
+    background: url('images/footer_nav_down.gif') no-repeat left center;
+}
+.footer_nav li.downend {
+    padding-left: 16px;
+    background: url('images/footer_nav_downend.gif') no-repeat left center;
+}
+#footer {
+    margin: 20px 0 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+#footer h2 {
+    font-size: 120%;
+}
+
+/* Navigation */
+#content nav {
+    clear: both;
+    line-height: 2;
+    overflow: hidden;
+}
+.nav-previous {
+    float: left;
+    width: 50%;
+}
+.nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+/* contact */
+.innerRow {
+    width: 360px;
+    margin: 0 auto 10px;
+}
+.innerRow select {
+    margin-right: 20px;
+}
+.wpcf7-form .rowElem {
+    display: inline-block;
+    clear: both;
+}
+.wpcf7-form label, .wpcf7-form .wpcf7-form-control-wrap {
+    float: left;
+}
+.wpcf7-form label {
+    width: 200px;
+    line-height: 37px;
+}
+.wpcf7-textarea {
+    background-color: #fff;
+}
+
+/* qtranslate */
+#qtranslate-chooser {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#qtranslate-chooser li {
+    float: left;
+    line-height: 1.0;
+}
+#qtranslate-chooser li:first-child {
+    width: 140px;
+}
+#qtranslate-chooser li:first-child + li {
+    width: 80px;
+}
+.qtrans_widget_end {
+    clear: both;
+    height: 0;
+}
